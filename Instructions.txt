@@ -1,0 +1,24 @@
+STEPS :-
+
+1. First go inside the TATA STEEL Project and copy the tatabot folder to your desktop.
+
+2. Copy the DialogFlow Key folder to local disc D.
+
+3.Now you need to install node js. Download and install it.
+
+4. Now in the terminal go to your project folder:-
+	
+	cd desktop
+	cd tatabot
+
+5. IN the terminal run:-
+	
+	set GOOGLE_APPLICATION_CREDENTIALS=D:\DialogFlow Key\tatachatbot-olpxem-7f9e110c8506.json
+
+6. Now in the terminal run:-
+
+	npm run dev
+
+NOTE:-
+
+My project might not run on another PC because while making it I have installed many npm modules which your PC might lack.

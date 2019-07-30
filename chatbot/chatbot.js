@@ -5,7 +5,6 @@ const config = require('../config/keys');
 const structjson = require('./structjson');
 
 const projectID = config.googleProjectID;
-
 const credentials = {
     client_email: config.googleClientEmail,
     private_key: config.googlePrivateKey
